@@ -24,10 +24,14 @@
 - [```register_env``` function](https://docs.ray.io/en/latest/rllib/rllib-env.html)
 
 # ray rllib Results
-- By default, all the training results are stored under ```~/ray_results```
+- All the training results are stored under the respective algorithm folders
 
 # Visualization via tensorboard
-```tensorboard --logdir=~/ray_results```
+```tensorboard --logdir=~/APPO_2023-12-11_01-46-42``` for checking APPO algorithm results
+
+```tensorboard --logdir=~/PPO_2023-12-11_00-15-54``` for checking PPO algorithm results
+
+```tensorboard --logdir=~/DQN_2023-12-11_10-47-39``` for checking DQN algorithm results
 
 
 # Custom Env Reference
