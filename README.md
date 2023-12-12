@@ -46,15 +46,15 @@ The starting state of each episode is randomly initialized with the balloon's al
 An episode ends when the balloon reaches the target altitude of 1000 units. The environment also includes a random wind effect, which adds an element of unpredictability to the altitude control challenge.
 
 ## Results
-The episodic returns of PPO algorithm are below - 
+The episodic returns of PPO algorithm are as follows - 
 
 <img src="/results/ppo_run.png" width="1000">
 
-The episodic returns of DQN algorithm are below - 
+The episodic returns of DQN algorithm are as follows - 
 
 <img src="/results/dqn_run.png" width="1000">
 
-The episodic returns of APPO algorithm are below - 
+The episodic returns of APPO algorithm are as follows - 
 
 <div>
   <img src="/results/appo_max.png" alt="APPO Max Results" width="500" />
