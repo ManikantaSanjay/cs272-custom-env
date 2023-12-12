@@ -1,4 +1,4 @@
-# Balloon Flight: A Reinforcement Learning Module for Altitude Control Simulation
+# Balloon Flight: A Reinforcement Learning Module for Altitude Control Simulation - Group 2
 
 ## Project Summary
 
