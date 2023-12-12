@@ -46,3 +46,18 @@ The starting state of each episode is randomly initialized with the balloon's al
 An episode ends when the balloon reaches the target altitude of 1000 units. The environment also includes a random wind effect, which adds an element of unpredictability to the altitude control challenge.
 
 ## Results
+The episodic returns of PPO algorithm are below - 
+
+<img src="/results/ppo_run.png" width="1000">
+
+The episodic returns of DQN algorithm are below - 
+
+<img src="/results/dqn_run.png" width="1000">
+
+The episodic returns of APPO algorithm are below - 
+
+<img src="/results/APPO.png" width="500">
+
+* The results show that the APPO's mean episodic return shows significant volatility, with some peaks that surpass the mean rewards of the PPO algorithm. This suggests that while APPO can achieve high rewards, it may not be as stable or consistent as PPO.
+* PPO appears to be the most consistent and stable in terms of learning performance, followed by APPO which shows higher variance in its learning performance.
+* DQN does not seem to be performing well in this particular task, as indicated by the lack of an improving trend.
