@@ -56,7 +56,11 @@ The episodic returns of DQN algorithm are below -
 
 The episodic returns of APPO algorithm are below - 
 
-<img src="/results/APPO.png" width="500">
+<div>
+  <img src="/results/appo_max.png" alt="APPO Max Results" width="500" />
+  <img src="/results/APPO.png" alt="APPO Results" width="500" />
+</div>
+
 
 * The results show that the APPO's mean episodic return shows significant volatility, with some peaks that surpass the mean rewards of the PPO algorithm. This suggests that while APPO can achieve high rewards, it may not be as stable or consistent as PPO.
 * PPO appears to be the most consistent and stable in terms of learning performance, followed by APPO which shows higher variance in its learning performance.
